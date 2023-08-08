@@ -47,6 +47,12 @@ module.exports = {
           },
         ],
       },
+      settings: {
+        react: { version: "detect" },
+        "import/resolver": {
+          typescript: {},
+        },
+      },
       plugins: ["@typescript-eslint", "import", "react", "react-hooks", "tailwindcss"],
     },
     {
