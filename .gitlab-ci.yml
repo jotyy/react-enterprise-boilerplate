@@ -1,0 +1,10 @@
+# 以下变量取自项目路径和项目名称，如需修改可取消注释进行修改
+# variables:
+#   PROJECT_NAME: "your-project"
+#   IMAGE_NAME: "your-image-name"
+
+include:
+  - remote: "http://192.168.1.18:8081/devops/ci-template/-/raw/master/common/docker-template.yml"
+
+stages:
+  - build
