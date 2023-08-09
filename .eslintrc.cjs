@@ -32,6 +32,9 @@ module.exports = {
       rules: {
         "react/no-children-prop": "off",
         "react/react-in-jsx-scope": "off",
+        "import/default": "off",
+        "import/no-named-as-default-member": "off",
+        "import/no-named-as-default": "off",
         "@typescript-eslint/no-unused-vars": [
           "warn",
           {
@@ -66,18 +69,4 @@ module.exports = {
   ],
 
   ignorePatterns: ["/.cache", "/.git", "/.husky", "/*/dist"],
-
-  settings: {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"],
-    },
-    "import/resovler": {
-      typescript: {
-        project: "./tsconfig.json",
-      },
-    },
-    react: {
-      version: "detect",
-    },
-  },
 };
