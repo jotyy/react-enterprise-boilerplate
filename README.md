@@ -1,8 +1,11 @@
 # React Enterprise Boilerplate
 
+React template inspired by [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise)
+
 ## 🚀 Features
 
 - 💅 **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapid UI development
+- 🌠 **[Shadcn UI](https://ui.shadcn.com/)** - Beautifully designed components that you can copy and paste into your apps.
 - ✨ **[ESlint](https://eslint.org/)** and **[Prettier](https://prettier.io/)** - For clean, consistent, and error-free code
 - 🛠️ **[Extremely strict TypeScript](https://www.typescriptlang.org/)** - With [`ts-reset`](https://github.com/total-typescript/ts-reset) library for ultimate type safety
 - 🧪 **[Vitest](https://vitest.dev/)** and **[React Testing Library](https://testing-library.com/react)** - For rock-solid unit and integration tests
@@ -22,7 +25,7 @@ To get started with this boilerplate, follow these steps:
 
 ```shell
 ## Don't forget to ⭐ star and fork it first :)
-git clone https://github.com/<your_username)/react-vite-enterprise.git
+git clone https://github.com/<your_username)/react-enterprise-boilerplate.git
 ```
 
 2. Install the dependencies:
