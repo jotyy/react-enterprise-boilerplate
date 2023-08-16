@@ -2,6 +2,10 @@
 
 React template inspired by [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise)
 
+## 🙋‍♂️ Why build this boilerplate?
+
+When we developing an admin dashboard, Next.js is usually not needed. So I built this boilerplate based on [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise).
+
 ## 🚀 Features
 
 - 💅 **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapid UI development
@@ -15,6 +19,7 @@ React template inspired by [Blazity/next-enterprise](https://github.com/Blazity/
 - 💎 **[CVA](http://cva.style/)** - Create a consistent, reusable, and atomic design system
 - 📈 **Components coupling and cohesion graph** - A tool for managing component
 - 💯 **Perfect Lighthouse score** - Because performance mattersrelationships
+- ☁️  **Docker** - Production-ready Dockerfile included
 - 🚢 **[Semantic Release](https://github.com/semantic-release/semantic-release)** - for automatic changelog
 
 ## 🎯 Getting Started
